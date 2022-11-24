@@ -1,0 +1,145 @@
+body {
+  background-image: url("images/it.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  font-family:'Open Sans', sans-serif;
+  color: black;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: rgb(4, 3, 4);
+  font-family:'Fuggles', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+h2 {
+  color: green;
+  font-family:'Roboto Slab', serif;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0,5px;
+}
+
+p {
+  color: rgb(6, 10, 2);
+  font-family:'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align:justify;
+  padding: 16px;
+  letter-spacing: 0,5px;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(103, 64, 16);
+}
+
+.card-white {
+  background-color: rgb(243, 233, 233);
+  margin: 30px auto;
+  text-align: center;
+  padding: 28px;
+  border-radius: 5px;
+  box-shadow: 1px 10px 30px rgb(0, 0, 0, 0.2);
+}
+
+.btn-grey {
+  color: rgb(229, 237, 237);
+  background-color: grey;
+  font-size: 16px;
+  padding: 8px 16px;
+  margin: 16px;
+  border-radius: 8px;
+  border: 2px solid;
+}
+
+.btn-salve {
+  display: block;
+  padding: 16px;
+}
+
+iframe {
+  width: 420px;
+  height: 240px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.list-inline li i {
+  font-size: 40px;
+}
+
+i {
+  color: black;
+  font-size: 30px;
+}
+
+#big > li > i {
+  color: rgb(126, 29, 29);
+}
+
+.list-inline li {
+  display: inline;
+  padding: 30px;
+  align-items: center;
+}
+
+.change:hover {
+  color: orange;
+}
+
+.card-white p {
+  text-align: center;
+}
+
+#left {
+  text-align: justify;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
